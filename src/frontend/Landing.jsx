@@ -13,7 +13,7 @@ export default function Lading() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="isolate bg-amber-100">
+    <div className="isolate h-screen bg-amber-100">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -54,7 +54,7 @@ export default function Lading() {
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(true)}
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">Åpne menyen</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
@@ -81,7 +81,7 @@ export default function Lading() {
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <span className="sr-only">Close menu</span>
+                <span className="sr-only">Lukk meny</span>
                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
@@ -103,7 +103,13 @@ export default function Lading() {
                     href="#"
                     className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
                   >
-                    Log in
+                    Aktører & Instruktører
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                  >
+                    Grupper
                   </a>
                 </div>
               </div>
@@ -112,11 +118,11 @@ export default function Lading() {
         </Dialog>
       </div>
       <main>
-        <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="relative px-6 py-0 lg:px-8">
+          <div className="mx-auto max-w-2xl -mt-10">
             <div className="text-center">
               <img src={Text} alt="" />
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="lg:-mt-28 md:-mt-28 sm:-mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
                   className="rounded-md bg-red-800 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-900"

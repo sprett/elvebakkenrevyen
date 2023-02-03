@@ -3,7 +3,7 @@ import Landing from './frontend/Landing'
 
 export const App = () => {
   return (
-    <div>
+    <div classname="bg-amber-100">
       <Landing />
     </div>
   )
