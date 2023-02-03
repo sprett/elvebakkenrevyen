@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Globe from '../../assets/FTCglobe.png'
 
 const navigation = [
-    { name: 'Elvebakkenrevyen 2023', href: '#' },
+    { name: 'Elvebakkenrevyen 2023', href: '/' },
   ]
 
 export const Navbar = () => {
@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className="px-6 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Elvebakkenrevyen</span>
               <img className="h-20" src={Globe} alt="" />
             </a>

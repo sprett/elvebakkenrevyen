@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { CameraIcon } from '@heroicons/react/20/solid'
 import { Navbar } from './components/Navbar'
 import Logo from '../assets/FTClogo.png'
 
@@ -35,7 +34,7 @@ export default function Example() {
       </div>
       <Navbar />
       <div className="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        <div className="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-amber-100 lg:block" />
+        <div className="absolute top-0 bottom-0 left-3/4 hidden bg-amber-100 lg:block" />
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-red-900">FOR THE</h2>
@@ -70,7 +69,7 @@ export default function Example() {
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                   <img
-                    className="object-cover object-center"
+                    className="lg:object-cover md:object-cover xl:object-cover object-center"
                     src={Logo}
                     alt="Whitney leaning against a railing on a downtown street"
                     width={1184}
@@ -78,8 +77,10 @@ export default function Example() {
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-gray-900">
-                  <CameraIcon className="h-5 w-5 flex-none text-gray-900" aria-hidden="true" />
-                  <span className="ml-2">Logo av Andreas Møland</span>
+                    <svg className='h-5 w-5 flex-none' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path d="M15.993 1.385a1.87 1.87 0 012.623 2.622l-4.03 5.27a12.749 12.749 0 01-4.237 3.562 4.508 4.508 0 00-3.188-3.188 12.75 12.75 0 013.562-4.236l5.27-4.03zM6 11a3 3 0 00-3 3 .5.5 0 01-.72.45.75.75 0 00-1.035.931A4.001 4.001 0 009 14.004V14a3.01 3.01 0 00-1.66-2.685A2.99 2.99 0 006 11z" />
+                    </svg>
+                  <span className="ml-2">Logo av Andreas Mørland</span>
                 </figcaption>
               </figure>
             </div>
