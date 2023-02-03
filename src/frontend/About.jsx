@@ -2,6 +2,7 @@
 import React from 'react'
 import { Navbar } from './components/Navbar'
 import Logo from '../assets/FTClogo.png'
+import NewFooter from './components/Footer'
 
 export default function Example() {
   return (
@@ -38,7 +39,7 @@ export default function Example() {
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-red-900">FOR THE</h2>
-            <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">CULTRE</h3>
+            <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">CULTURE</h3>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -128,6 +129,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+      <NewFooter />
     </div>
   )
 }
