@@ -2,6 +2,7 @@
 import React from 'react'
 import { Navbar } from './components/Navbar'
 import Logo from '../assets/FTClogo.png'
+import NewFooter from './components/Footer'
 
 export default function Example() {
   return (
@@ -107,6 +108,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+      <NewFooter />
     </div>
   )
 }
