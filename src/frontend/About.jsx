@@ -38,7 +38,7 @@ export default function Example() {
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-red-900">FOR THE</h2>
-            <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">CULTRE</h3>
+            <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">CULTURE</h3>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -88,41 +88,20 @@ export default function Example() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-900">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              I år spiller vi for kulturen! 
+              Vi spiller ikke på engelsk nei dessverre, men det var kult i tittelen. Whatever liksom! 
+              Do it for the culture! Come and see at river hill this march! 
               </p>
             </div>
-            <div className="prose prose-indigo mx-auto mt-5 text-gray-900 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+            <div className="prose prose-indigo mx-auto mt-5 text-lg text-gray-900 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+              Elvebakkenrevyen er litt ekstra spesiell ja.. De sier så i alle fall. 
+              Vi ser frem til å lage noe skikkelig STORT liksom. For det er et stort ansvar å lage en elvebakkenrevy. 
+              Vi er rett og slett litt annerledes enn de andre skolerevyene og sånn har det alltid vært. Vi må gjøre det for kulturen.
               </p>
+              <p className='text-black'>Eller…..?</p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
-              </p>
-              <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
-              </p>
-              <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-              </p>
-              <h3 className='text-black'>How we helped</h3>
-              <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
-              </p>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              Vil du finne ut hva det vil si å gjøre noe For The Culture bør du komme og se Elvebakkenrevyen 2023 hver dag fra 1-12. Mars!
               </p>
             </div>
           </div>
