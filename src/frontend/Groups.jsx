@@ -1,5 +1,7 @@
 import NewFooter from "./components/Footer"
 import { Navbar } from "./components/Navbar"
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const sjef = [
   {
@@ -163,7 +165,9 @@ const groups = [
           >
             {sjef.map((person) => (
               <li key={person.name}>
+                <Zoom>
                 <img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                </Zoom>
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
               </li>
@@ -183,7 +187,9 @@ const groups = [
           >
             {people.map((person) => (
               <li key={person.name}>
+                <Zoom>
                 <img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                </Zoom>
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
               </li>
@@ -203,7 +209,9 @@ const groups = [
           >
             {groups.map((person) => (
               <li key={person.name}>
+                <Zoom>
                 <img className="aspect-[3/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                </Zoom>
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
               </li>
