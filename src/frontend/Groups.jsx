@@ -6,7 +6,7 @@ const sjef = [
     name: 'REVYSJEFER',
     role: 'Nora, Ellie, Sylvester og Nicolas',
     imageUrl:
-      'https://previews.dropbox.com/p/thumb/AB3hbK-AG4f3-LH7iZwJEIVFvf3at6xbM7TSnbZX-AserY8PcBsxCv1_Mg3y9rN1IujIpOfEflE83qCCA_FukuZB-UhNFMbsYCfHQFpE0KVwk86vDOa-yaa826M61ojmKSfbsjsEffZnXBqNuig8VtxbP5a--fXjJGm_wQsiTpQVNsyWllkthamjm6Nzj_Mm_q6tEme2ax79GAjkavo4A-KS5IngrMUU32Vd2c8bh6FgnHva7Rw6xTaT3xCWiWf0rQYJwS30iYxXH3v-F-vfSDVs475sv6a4g0v9IXhjpgXgzMJ96yD8uX-c3k7yJ8Y7UqqZXgVVp_jGhdtu-I3U7cjeYaeIyRXJhYBTN8Mp92WVTS9tnd1jnzMmzdBGm8IqnB4/p.jpeg',
+      'https://i.imgur.com/I3dTCqm.jpeg',
   },
 ]
 
